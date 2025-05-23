@@ -883,6 +883,62 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="assets/js/script.js"></script>
 
+    <script>
+
+        $('.what-we-do  .owl-carousel').owlCarousel({
+            loop: false,
+            margin: 15,
+            smartSpeed: 1000,
+            dots: false,
+            autoplay: true,
+            autoplayTimeout: 3000,
+
+
+            nav: true,
+            navText: ["<img src='assets/media/ar.svg'>", "<img src='assets/media/al.svg'>"],
+            responsive: {
+                0: {
+                    items: 1,
+                    stagePadding: 40,
+                },
+                600: {
+                    items: 3,
+                    stagePadding: 40,
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        });
+
+    </script>
+
+    <script>
+        $('.testi .owl-carousel').owlCarousel({
+            loop: true,
+            margin: 20,
+            dots: false,
+            smartSpeed: 1500,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            autoWidth: true,
+            nav: false,
+            navText: ["<img src='assets/media/prev.svg'>", "<img src='assets/media/next.svg'>"],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        });
+
+    </script>
+
 
     <script>
         document.addEventListener('DOMContentLoaded', function () {
